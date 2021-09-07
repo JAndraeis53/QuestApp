@@ -1,3 +1,5 @@
+using System;
+
 namespace Quest
 {
     // An instance of the Adventurer class is an object that will undergo some challenges
