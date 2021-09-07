@@ -44,8 +44,12 @@ namespace Quest
             int minAwesomeness = 0;
             int maxAwesomeness = 100;
 
+            var Robe = new Robe () { Colors = new List<string>() { "brown" , "orange"}, robeLength = 11 };
+            
             // Make a new "Adventurer" object using the "Adventurer" class
-            Adventurer theAdventurer = new Adventurer(name);
+            Adventurer theAdventurer = new Adventurer(name, colorfulRobe);
+
+            Console.WriteLine(theAdventurer.GetDescription());
 
             // A list of challenges for the Adventurer to complete
             // Note we can use the List class here because have the line "using System.Collections.Generic;" at the top of the file.
@@ -58,9 +62,9 @@ namespace Quest
                 favoriteBeatle
             };
 
-            adventurTime();
+            adventureTime();
 
-            void adventurTime()
+            void adventureTime()
             {
             // Loop through all the challenges and subject the Adventurer to them
             foreach (Challenge challenge in challenges)
@@ -91,7 +95,7 @@ namespace Quest
             string playAgain = Console.ReadLine();
 
             if (playAgain == "y") {
-                adventurTime();
+                adventureTime();
             }
             else {
                 Console.WriteLine("leave");
