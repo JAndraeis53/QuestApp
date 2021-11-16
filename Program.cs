@@ -44,10 +44,10 @@ namespace Quest
             int minAwesomeness = 0;
             int maxAwesomeness = 100;
 
-            var Robe = new Robe () { Colors = new List<string>() { "brown" , "orange"}, robeLength = 11 };
+            var AdventureRobe = new Robe () { Colors = new List<string>() { "brown" , "orange" }, robeLength = 11 };
             
             // Make a new "Adventurer" object using the "Adventurer" class
-            Adventurer theAdventurer = new Adventurer(name, colorfulRobe);
+            Adventurer theAdventurer = new Adventurer(name, AdventureRobe);
 
             Console.WriteLine(theAdventurer.GetDescription());
 

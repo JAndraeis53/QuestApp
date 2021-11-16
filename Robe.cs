@@ -10,7 +10,7 @@ namespace Quest
     }
 }
 
-
+// Phase 4
 // Add a new immutable property to the Adventurer class called ColorfulRobe. The type of this property should be Robe.
 // Add a new constructor parameter to the Adventurer class to accept a Robe and to set the ColorfulRobe property.
 // Add a new method to the Adventurer class called GetDescription. This method should return a string that contains the adventurer's name and a description of their robe.

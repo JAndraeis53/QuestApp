@@ -25,8 +25,8 @@ namespace Quest
 
         public string GetDescription()
         {
-            string robeColor = string.join(" and ", ColorfulRobe.Colors);
-            string details = $"Adventurer, {Name}, is wearing a {robeColor} robe that is {colorfulRobe.robeLength} inches long :";
+            string robeColor = String.Join(" and ", ColorfulRobe.Colors);
+            string details = $"Adventurer, {Name}, is wearing a {robeColor} robe that is {ColorfulRobe.robeLength} inches long :";
             return details;
         }
         // This method returns a string that describes the Adventurer's status
