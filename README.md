@@ -1,4 +1,4 @@
-This is an app called Quest
+This is an app called Quest!
 
 This is a C# learning exercise:
 In this exercise we will don the brightly colored robe and shiny hat of an adventurer and undergo a series of challenges to complete a quest.
@@ -28,4 +28,5 @@ Phase 8
 Add code to record the number of successful challenges the adventurer completes during a quest. 
 
 
+Use dotnet.run to play game through command line
 https://github.com/nashville-software-school/bangazon-inc/blob/cohort-49/book-1-orientation/chapters/QUEST.md#phase-1
