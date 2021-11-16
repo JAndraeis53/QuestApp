@@ -26,3 +26,6 @@ Let's make the challenges a little more interesting
 
 Phase 8
 Add code to record the number of successful challenges the adventurer completes during a quest. 
+
+
+https://github.com/nashville-software-school/bangazon-inc/blob/cohort-49/book-1-orientation/chapters/QUEST.md#phase-1
