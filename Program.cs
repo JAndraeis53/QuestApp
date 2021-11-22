@@ -46,6 +46,7 @@ namespace Quest
 
             var AdventureRobe = new Robe () { Colors = new List<string>() { "brown" , "orange" }, robeLength = 11 };
             var AdventureHat = new Hat() { ShininessLevel = 21 };
+            var AdventurePrize = new Prize("One Potato");
 
             // Make a new "Adventurer" object using the "Adventurer" class
             Adventurer theAdventurer = new Adventurer(name, AdventureRobe, AdventureHat);
@@ -87,6 +88,9 @@ namespace Quest
             {
                 Console.WriteLine("I guess you did...ok? ...sorta. Still, you should get out of my sight.");
             }
+
+            AdventurePrize.ShowPrize(theAdventurer);
+
             playAgain();
             }
 
